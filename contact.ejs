@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="-UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <title> Document </title>
+    <link rel="stylesheet" href="css/Contact.css">
+  </head>
+  <body>
+    <div class="background"></div>
+    <a  href="/">Back</a>
+
+      <h1> Contact Us</h1>
+      <h4> Whether you need the answers to an event-related problem or 
+        you would just like to hear more about GiGi Ph, 
+        we’re all ears! Just fill out the form and we’ll be in contact with you straight away.</h4>
+      <div class="container">
+        
+        <form action="https://formspree.io/f/xvolzpye" method="POST" id="my-form">
+          
+    
+          <div class="form-group">
+            
+            <label for="firstName"> First Name</label>
+            <input type="text" id="firstName" name="Firstname: " required>
+          </div>
+    
+          <div class="form-group">
+            <label for="latsName">Last Name</label>
+            <input type="text" id="lastName" name="Lastname: " required>
+          </div>
+    
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email: ">
+          </div>
+    
+          <div class="form-group">
+            <label for="massage"> Message: </label>
+            <textarea name="massage" id="massage" cols="30" rows="10"></textarea required>
+          </div>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div id="status"></div>
+      
+        <span class="fa fa-phone"></span> <h3>Phone: 0916-282-6875</h3>
+        <span class="fa fa-envelope-o"></span><h3>Gmail: gigieventsph@gmail.com</h3>
+      
+    <script src="js/Contact.js"></script>
+  </body>
+</html>
